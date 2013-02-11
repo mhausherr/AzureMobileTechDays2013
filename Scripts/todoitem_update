@@ -1,0 +1,44 @@
+function update(item, user, request) {
+
+    request.execute({
+        success: function() {
+            request.respond();
+            pushWindows(item);
+            pushiOS(item);
+            }
+        });
+}
+
+function pushWindows(item) {
+    var channelTable = tables.getTable('Channel');
+    channelTable.read({
+        success: function(channels) {
+            channels.forEach(function(channel) {
+                push.wns.sendToastText04(channel.uri, {
+                    text1: "A task just has been completed by someone! Keep charging!"
+                }, {
+                    success: function(pushResponse) {
+                        console.log("Sent push:", pushResponse);
+                    }
+                });
+            });
+        }
+    });
+}
+
+function pushiOS(item) {
+    var pushIdTable = tables.getTable('iOSPushId');
+    pushIdTable.read({
+        success: function(pushIds) {
+            pushIds.forEach(function(pushId) {
+                push.apns.send(pushId.deviceToken, {
+                    alert: "A task just has been completed by someone! Keep charging!"
+                },{
+                    error : function(err) {
+                        console.log('error :', err);
+                    }
+                });
+            });
+        }
+    });
+}

@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51221FDF16C96BA9004282F5 /* OTIOSPushID.m in Sources */ = {isa = PBXBuildFile; fileRef = 51221FDE16C96BA9004282F5 /* OTIOSPushID.m */; };
+		517F133116C333B1007555BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517F133016C333B1007555BB /* UIKit.framework */; };
+		517F133316C333B1007555BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517F133216C333B1007555BB /* Foundation.framework */; };
+		517F133516C333B1007555BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517F133416C333B1007555BB /* CoreGraphics.framework */; };
+		517F133B16C333B1007555BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517F133916C333B1007555BB /* InfoPlist.strings */; };
+		517F133D16C333B1007555BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F133C16C333B1007555BB /* main.m */; };
+		517F134116C333B1007555BB /* OTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F134016C333B1007555BB /* OTAppDelegate.m */; };
+		517F134316C333B1007555BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 517F134216C333B1007555BB /* Default.png */; };
+		517F134516C333B1007555BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 517F134416C333B1007555BB /* Default@2x.png */; };
+		517F134716C333B1007555BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 517F134616C333B1007555BB /* Default-568h@2x.png */; };
+		517F134A16C333B1007555BB /* OTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F134916C333B1007555BB /* OTMasterViewController.m */; };
+		517F134D16C333B1007555BB /* OTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F134C16C333B1007555BB /* OTDetailViewController.m */; };
+		517F135016C333B1007555BB /* OTMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517F134E16C333B1007555BB /* OTMasterViewController.xib */; };
+		517F135316C333B1007555BB /* OTDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517F135116C333B1007555BB /* OTDetailViewController.xib */; };
+		517F136116C333F2007555BB /* OTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F135E16C333F2007555BB /* OTClient.m */; };
+		517F136216C333F2007555BB /* MSClient+Techdays.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F136016C333F2007555BB /* MSClient+Techdays.m */; };
+		517F136516C33488007555BB /* OTModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F136416C33488007555BB /* OTModelObject.m */; };
+		517F136816C334D2007555BB /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517F136716C334D2007555BB /* WindowsAzureMobileServices.framework */; };
+		517F136B16C3352A007555BB /* OTTodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F136A16C3352A007555BB /* OTTodoItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51221FDD16C96BA9004282F5 /* OTIOSPushID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTIOSPushID.h; sourceTree = "<group>"; };
+		51221FDE16C96BA9004282F5 /* OTIOSPushID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTIOSPushID.m; sourceTree = "<group>"; };
+		517F132C16C333B1007555BB /* TechDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517F133016C333B1007555BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		517F133216C333B1007555BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		517F133416C333B1007555BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		517F133816C333B1007555BB /* TechDays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechDays-Info.plist"; sourceTree = "<group>"; };
+		517F133A16C333B1007555BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		517F133C16C333B1007555BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517F133E16C333B1007555BB /* TechDays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechDays-Prefix.pch"; sourceTree = "<group>"; };
+		517F133F16C333B1007555BB /* OTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAppDelegate.h; sourceTree = "<group>"; };
+		517F134016C333B1007555BB /* OTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAppDelegate.m; sourceTree = "<group>"; };
+		517F134216C333B1007555BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		517F134416C333B1007555BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		517F134616C333B1007555BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		517F134816C333B1007555BB /* OTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMasterViewController.h; sourceTree = "<group>"; };
+		517F134916C333B1007555BB /* OTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTMasterViewController.m; sourceTree = "<group>"; };
+		517F134B16C333B1007555BB /* OTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTDetailViewController.h; sourceTree = "<group>"; };
+		517F134C16C333B1007555BB /* OTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTDetailViewController.m; sourceTree = "<group>"; };
+		517F134F16C333B1007555BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OTMasterViewController.xib; sourceTree = "<group>"; };
+		517F135216C333B1007555BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OTDetailViewController.xib; sourceTree = "<group>"; };
+		517F135D16C333F2007555BB /* OTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTClient.h; sourceTree = "<group>"; };
+		517F135E16C333F2007555BB /* OTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTClient.m; sourceTree = "<group>"; };
+		517F135F16C333F2007555BB /* MSClient+Techdays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSClient+Techdays.h"; sourceTree = "<group>"; };
+		517F136016C333F2007555BB /* MSClient+Techdays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSClient+Techdays.m"; sourceTree = "<group>"; };
+		517F136316C33488007555BB /* OTModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTModelObject.h; sourceTree = "<group>"; };
+		517F136416C33488007555BB /* OTModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTModelObject.m; sourceTree = "<group>"; };
+		517F136716C334D2007555BB /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		517F136916C3352A007555BB /* OTTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTodoItem.h; sourceTree = "<group>"; };
+		517F136A16C3352A007555BB /* OTTodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTodoItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517F132916C333B1007555BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F133116C333B1007555BB /* UIKit.framework in Frameworks */,
+				517F133316C333B1007555BB /* Foundation.framework in Frameworks */,
+				517F133516C333B1007555BB /* CoreGraphics.framework in Frameworks */,
+				517F136816C334D2007555BB /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517F132116C333B1007555BB = {
+			isa = PBXGroup;
+			children = (
+				517F136616C334C1007555BB /* Externals */,
+				517F133616C333B1007555BB /* TechDays */,
+				517F132F16C333B1007555BB /* Frameworks */,
+				517F132D16C333B1007555BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517F132D16C333B1007555BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517F132C16C333B1007555BB /* TechDays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517F132F16C333B1007555BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517F133016C333B1007555BB /* UIKit.framework */,
+				517F133216C333B1007555BB /* Foundation.framework */,
+				517F133416C333B1007555BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517F133616C333B1007555BB /* TechDays */ = {
+			isa = PBXGroup;
+			children = (
+				517F133F16C333B1007555BB /* OTAppDelegate.h */,
+				517F134016C333B1007555BB /* OTAppDelegate.m */,
+				517F135B16C333D8007555BB /* Model */,
+				517F135A16C333CF007555BB /* Services */,
+				517F135916C333BF007555BB /* Controllers */,
+				517F133716C333B1007555BB /* Supporting Files */,
+			);
+			path = TechDays;
+			sourceTree = "<group>";
+		};
+		517F133716C333B1007555BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517F133816C333B1007555BB /* TechDays-Info.plist */,
+				517F133916C333B1007555BB /* InfoPlist.strings */,
+				517F133C16C333B1007555BB /* main.m */,
+				517F133E16C333B1007555BB /* TechDays-Prefix.pch */,
+				517F134216C333B1007555BB /* Default.png */,
+				517F134416C333B1007555BB /* Default@2x.png */,
+				517F134616C333B1007555BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517F135916C333BF007555BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				517F134816C333B1007555BB /* OTMasterViewController.h */,
+				517F134916C333B1007555BB /* OTMasterViewController.m */,
+				517F134E16C333B1007555BB /* OTMasterViewController.xib */,
+				517F134B16C333B1007555BB /* OTDetailViewController.h */,
+				517F134C16C333B1007555BB /* OTDetailViewController.m */,
+				517F135116C333B1007555BB /* OTDetailViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		517F135A16C333CF007555BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				517F135D16C333F2007555BB /* OTClient.h */,
+				517F135E16C333F2007555BB /* OTClient.m */,
+				517F135F16C333F2007555BB /* MSClient+Techdays.h */,
+				517F136016C333F2007555BB /* MSClient+Techdays.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		517F135B16C333D8007555BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517F136316C33488007555BB /* OTModelObject.h */,
+				517F136416C33488007555BB /* OTModelObject.m */,
+				517F136916C3352A007555BB /* OTTodoItem.h */,
+				517F136A16C3352A007555BB /* OTTodoItem.m */,
+				51221FDD16C96BA9004282F5 /* OTIOSPushID.h */,
+				51221FDE16C96BA9004282F5 /* OTIOSPushID.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		517F136616C334C1007555BB /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				517F136716C334D2007555BB /* WindowsAzureMobileServices.framework */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517F132B16C333B1007555BB /* TechDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517F135616C333B1007555BB /* Build configuration list for PBXNativeTarget "TechDays" */;
+			buildPhases = (
+				517F132816C333B1007555BB /* Sources */,
+				517F132916C333B1007555BB /* Frameworks */,
+				517F132A16C333B1007555BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechDays;
+			productName = TechDays;
+			productReference = 517F132C16C333B1007555BB /* TechDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517F132316C333B1007555BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Octo;
+			};
+			buildConfigurationList = 517F132616C333B1007555BB /* Build configuration list for PBXProject "TechDays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 517F132116C333B1007555BB;
+			productRefGroup = 517F132D16C333B1007555BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517F132B16C333B1007555BB /* TechDays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517F132A16C333B1007555BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F133B16C333B1007555BB /* InfoPlist.strings in Resources */,
+				517F134316C333B1007555BB /* Default.png in Resources */,
+				517F134516C333B1007555BB /* Default@2x.png in Resources */,
+				517F134716C333B1007555BB /* Default-568h@2x.png in Resources */,
+				517F135016C333B1007555BB /* OTMasterViewController.xib in Resources */,
+				517F135316C333B1007555BB /* OTDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517F132816C333B1007555BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F133D16C333B1007555BB /* main.m in Sources */,
+				517F134116C333B1007555BB /* OTAppDelegate.m in Sources */,
+				517F134A16C333B1007555BB /* OTMasterViewController.m in Sources */,
+				517F134D16C333B1007555BB /* OTDetailViewController.m in Sources */,
+				517F136116C333F2007555BB /* OTClient.m in Sources */,
+				517F136216C333F2007555BB /* MSClient+Techdays.m in Sources */,
+				517F136516C33488007555BB /* OTModelObject.m in Sources */,
+				517F136B16C3352A007555BB /* OTTodoItem.m in Sources */,
+				51221FDF16C96BA9004282F5 /* OTIOSPushID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		517F133916C333B1007555BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517F133A16C333B1007555BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		517F134E16C333B1007555BB /* OTMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517F134F16C333B1007555BB /* en */,
+			);
+			name = OTMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		517F135116C333B1007555BB /* OTDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517F135216C333B1007555BB /* en */,
+			);
+			name = OTDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517F135416C333B1007555BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517F135516C333B1007555BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517F135716C333B1007555BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechDays/TechDays-Prefix.pch";
+				INFOPLIST_FILE = "TechDays/TechDays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		517F135816C333B1007555BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechDays/TechDays-Prefix.pch";
+				INFOPLIST_FILE = "TechDays/TechDays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517F132616C333B1007555BB /* Build configuration list for PBXProject "TechDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F135416C333B1007555BB /* Debug */,
+				517F135516C333B1007555BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517F135616C333B1007555BB /* Build configuration list for PBXNativeTarget "TechDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F135716C333B1007555BB /* Debug */,
+				517F135816C333B1007555BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517F132316C333B1007555BB /* Project object */;
+}
