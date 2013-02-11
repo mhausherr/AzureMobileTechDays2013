@@ -128,7 +128,7 @@
 				517F134416C333B1007555BB /* Default@2x.png */,
 				517F134616C333B1007555BB /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		517F135916C333BF007555BB /* Controllers */ = {
@@ -141,7 +141,7 @@
 				517F134C16C333B1007555BB /* OTDetailViewController.m */,
 				517F135116C333B1007555BB /* OTDetailViewController.xib */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		517F135A16C333CF007555BB /* Services */ = {
@@ -152,7 +152,7 @@
 				517F135F16C333F2007555BB /* MSClient+Techdays.h */,
 				517F136016C333F2007555BB /* MSClient+Techdays.m */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		517F135B16C333D8007555BB /* Model */ = {
@@ -165,7 +165,7 @@
 				51221FDD16C96BA9004282F5 /* OTIOSPushID.h */,
 				51221FDE16C96BA9004282F5 /* OTIOSPushID.m */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		517F136616C334C1007555BB /* Externals */ = {
@@ -344,8 +344,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TechDays/TechDays-Prefix.pch";
-				INFOPLIST_FILE = "TechDays/TechDays-Info.plist";
+				GCC_PREFIX_HEADER = "TechDays/Supporting Files/TechDays-Prefix.pch";
+				INFOPLIST_FILE = "TechDays/Supporting Files/TechDays-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -361,8 +361,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TechDays/TechDays-Prefix.pch";
-				INFOPLIST_FILE = "TechDays/TechDays-Info.plist";
+				GCC_PREFIX_HEADER = "TechDays/Supporting Files/TechDays-Prefix.pch";
+				INFOPLIST_FILE = "TechDays/Supporting Files/TechDays-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
